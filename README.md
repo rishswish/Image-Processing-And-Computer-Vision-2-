@@ -25,7 +25,6 @@ The steps involved in the experiment are as follows:
 
 Lab4
 Use the given dataset and perform the following tasks:
-Dataset: https://drive.google.com/drive/folders/1R0iAMQ-sqZXHjPgnlNc99H_X7S4P0524?usp=sharing
 This dataset contains a zip file of RGB images to train the GAN.
 The steps involved in the experiment are as follows:
 a. Preparing the dataset: Download and preprocess the dataset. Download the zip file on colab (using “ !unzip <file path>” command).
