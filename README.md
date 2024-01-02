@@ -35,6 +35,9 @@ e. Loss Functions: Define Loss Functions for the Generator and Discriminator.
 f. Training: Train the GAN on the giving dataset.
 g. Results: Display the Grayscale input, Colourized output and the Groundtruth side-by-side.
 
+Lab5
+Analyse body postures/ keypoints using MoveNet
+
 
 
 
