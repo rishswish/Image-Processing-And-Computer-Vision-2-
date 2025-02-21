@@ -27,13 +27,13 @@ Lab4
 Use the given dataset and perform the following tasks:
 This dataset contains a zip file of RGB images to train the GAN.
 The steps involved in the experiment are as follows:
-a. Preparing the dataset: Download and preprocess the dataset. Download the zip file on colab (using “ !unzip <file path>” command).
-b. Parse only a part of the dataset to save computation and convert each image to a grayscale image.
-c. The Generator: Prepare a Generator model that would take in a grayscale image (x) and produce a RGB image(G(x)). Note, x will be a tensor of shape ( batch size , 120 , 120 , 1 ) and the output G(x) will have a shape ( batch size , 120 , 120 , 3 )
-d. The Discriminator: Prepare a Discriminator model, represented as D , that will take in the real image y ( from the training data ) and the generated image G(x) ( from the generator ) to output two probabilities.
-e. Loss Functions: Define Loss Functions for the Generator and Discriminator.
-f. Training: Train the GAN on the giving dataset.
-g. Results: Display the Grayscale input, Colourized output and the Groundtruth side-by-side.
+1. Preparing the dataset: Download and preprocess the dataset. Download the zip file on colab (using “ !unzip <file path>” command).
+2. Parse only a part of the dataset to save computation and convert each image to a grayscale image.
+3. The Generator: Prepare a Generator model that would take in a grayscale image (x) and produce a RGB image(G(x)). Note, x will be a tensor of shape ( batch size , 120 , 120 , 1 ) and the output G(x) will have a shape ( batch size , 120 , 120 , 3 )
+4. The Discriminator: Prepare a Discriminator model, represented as D , that will take in the real image y ( from the training data ) and the generated image G(x) ( from the generator ) to output two probabilities.
+5. Loss Functions: Define Loss Functions for the Generator and Discriminator.
+6. Training: Train the GAN on the giving dataset.
+7. Results: Display the Grayscale input, Colourized output and the Groundtruth side-by-side.
 
 Lab5
 Analyse body postures/ keypoints using MoveNet
