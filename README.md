@@ -1,6 +1,6 @@
 # Image-Processing-And-Computer-Vision-2
 
-Lab1
+Lab1- Capstone Project
 This dataset contains Malaria cell images classified into “Paratisized” and “Uninfected.”
 The steps involved in the experiment are as follows:
 1. Preparing the dataset: Download and preprocess the dataset. Resize the images and perform one-hot encoding.
