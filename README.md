@@ -3,10 +3,10 @@
 Lab1
 This dataset contains Malaria cell images classified into “Paratisized” and “Uninfected.”
 The steps involved in the experiment are as follows:
-a. Preparing the dataset: Download and preprocess the dataset. Resize the images and perform one-hot encoding.
-b. Designing the model: Design the CNN model.
-c. Training the model: Initialize the Custom CNN and transfer learning models (with pre-trained weights if available) and fine-tune them using the training dataset. Define the loss function and optimization algorithm. Monitor the training process and adjust 3-4 hyperparameters.
-d. Post-processing and evaluation: After training, apply the trained model to test images. Calculate evaluation metrics such as to assess the model's performance
+1. Preparing the dataset: Download and preprocess the dataset. Resize the images and perform one-hot encoding.
+2. Designing the model: Design the CNN model.
+3. Training the model: Initialize the Custom CNN and transfer learning models (with pre-trained weights if available) and fine-tune them using the training dataset. Define the loss function and optimization algorithm. Monitor the training process and adjust 3-4 hyperparameters.
+4. Post-processing and evaluation: After training, apply the trained model to test images. Calculate evaluation metrics such as to assess the model's performance
 
 Lab2
 Use the given dataset and perform the YOLO task.
